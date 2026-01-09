@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-black text-white min-h-screen font-sans;
+}
+
+.card {
+  @apply bg-gray-900 border border-gray-700 rounded-lg p-4;
+}
+
+.btn {
+  @apply px-4 py-2 rounded bg-white text-black hover:bg-gray-200 transition-colors;
+}
+
+.btn-secondary {
+  @apply px-4 py-2 rounded bg-gray-700 text-white hover:bg-gray-600 transition-colors;
+}
+
+.tab {
+  @apply px-4 py-2 border-b-2 cursor-pointer;
+}
+
+.tab-active {
+  @apply border-white text-white;
+}
+
+.tab-inactive {
+  @apply border-transparent text-gray-400 hover:text-white;
+}
